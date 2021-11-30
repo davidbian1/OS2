@@ -74,51 +74,8 @@ gcc bankersalgorithm.c -o bankersalgo
 # Output
 Expected Output
 ```
-Consumer ready to receive 20 items.
-
-Producer ready to create 20 items.
-Item produced, there are now 1 item(s) in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-item produced, there are now 1 item(s) in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Item produced, there are now 1 item(s) in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-item produced, there are now 2 item(s) in the table.
-Item consumed, there are now 1 item(s) remaining in the table.
-Item consumed, there are now 0 item(s) remaining in the table.
-Producer cleaned up!
-Consumer cleaned up!
+System in SAFE state!
+Safe sequence: P1 P3 P4 P0 P2
 ```
 
 # Customization
